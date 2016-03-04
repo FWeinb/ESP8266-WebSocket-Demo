@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+    body {
+      font-family:sans-serif;
+    }
+    .container {
+      display: flex;
+      min-width: 600px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .display {
+      display:block;
+      margin:1em 0;
+      background:black;
+      min-width:256px; min-height:128px;
+      image-rendering: pixelated;
+      -ms-interpolation-mode: nearest-neighbor;
+    }
+
+    video{
+      max-width: 100%;
+    }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-start;
+    }
+    h2 {
+      margin:0 0;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <canvas class="display" width=128 height=64></canvas>
+      <div class="button-container">
+        <button data-send="p">Previous Frame</button>
+        <button data-send="e">Enable Autotransition</button>
+        <button data-send="a">Disable Autotransition</button>
+        <button id="clear">Clear display</button>
+        <button data-send="n">Next Frame</button> <br />
+      </div>
+      <br />
+      <div class="left">
+        <h2>Advanced Controll</h2>
+        <h3>Image Upload</h3>
+        <input type="file" id="upload" name="pic" accept="image/*" />
+      </div>
+      <div class="left">
+        <h3>Video Playback</h3>
+        <label for="video">Video URL:</label>
+        <input type="text" name="video" id="videoLink" value="" />
+        <video crossorigin="anonymous" preload="metadata" controls>
+           <source src="https://crossorigin.me/http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+  </body>
+</html>

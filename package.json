@@ -1,0 +1,35 @@
+{
+  "name": "ssd1306",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "floyd-steinberg": "^1.0.4",
+    "html-minifier": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "html-webpack-plugin": "^2.1.0",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabrice Weinberg <Fabrice@weinberg.me>",
+  "license": "MIT",
+  "xo": {
+    "globals": [
+      "$"
+    ],
+    "env": [
+      "browser"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}

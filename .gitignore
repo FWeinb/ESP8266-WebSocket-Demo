@@ -1,0 +1,4 @@
+.pioenvs
+.clang_complete
+data
+node_modules
