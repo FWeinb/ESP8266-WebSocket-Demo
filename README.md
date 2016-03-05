@@ -1,6 +1,7 @@
 # Play A Video on an ESP8266 via WebSocket
 
-[![Thumbnail](https://i.vimeocdn.com/video/550541560.jpg?mw=512)](https://vimeo.com/150929166) is a video showing this in action.
+
+[![Thumbnail](https://i.vimeocdn.com/video/550541560.jpg?mw=512)](https://vimeo.com/150929166)
 
 ## How to compile
 
