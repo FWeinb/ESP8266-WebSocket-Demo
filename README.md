@@ -1,7 +1,8 @@
 # Play A Video on an ESP8266 via WebSocket
 
 
-[![Thumbnail](https://i.vimeocdn.com/video/550541560.jpg?mw=512)](https://vimeo.com/150929166)
+[![Thumbnail](https://i.vimeocdn.com/video/550541560.jpg?mw=512)](https://vimeo.com/150929166)  
+(Click to see the Video)
 
 ## How to compile
 
@@ -14,8 +15,9 @@
   5. Add your SSID and password to `src/main.cpp`
   6. run `make uploadAll`
 
-Connect SCL to Pin D6 and SDA to Pin D5 on a NodeMCU
+## Wiring 
 
+![Schematics](schematics/wiring.png?raw=true)
 
 ## Used libs etc.
 [WebSocket library](https://github.com/Links2004/arduinoWebSockets) by Links2004  
