@@ -21,7 +21,7 @@ char* webImage       = (char*)malloc(1024 * sizeof(char));
 // Change as you like
 const char *ssid         = NULL;
 const char *password     = NULL;
-const char *otaPassoword = "password";
+const char *otaPassword  = "password";
 
 SSD1306          display    (0x3C, D5, D6);
 SSD1306Ui        ui         ( &display );
