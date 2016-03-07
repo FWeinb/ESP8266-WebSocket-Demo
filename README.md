@@ -11,7 +11,7 @@
   1. You need `nodejs`, `platformio` and `webpack` as well as `make`.
   2. Clone this repository
   3. Run `npm install`
-  4. Install the WebSocket Library `platformio libs install 549` 
+  4. Install the WebSocket Library `platformio lib install 549` 
   5. Connect your ESP8266 to your computer and change the `upload_port` in `platformio.ini`
   6. Add your SSID and password to `src/main.cpp`
   7. run `make uploadAll`
