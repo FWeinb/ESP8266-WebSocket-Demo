@@ -2,7 +2,7 @@
 
 #include <FS.h>
 #include <ArduinoOTA.h>
-#include <Time.h>
+#include <time.h>
 
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
